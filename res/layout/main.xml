@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:oneshot="false"
+    >
+
+	<SurfaceView
+	android:id="@+id/sView"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"/>
+
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/back"
+	    android:layout_gravity="top|left"
+	    android:text="返回"/>
+
+	<Button
+	    android:layout_width="180dp"
+	    android:layout_height="180dp"
+	    android:layout_gravity="bottom|right"
+	    android:background="@drawable/hand_off"
+	    android:id="@+id/handoff"/>
+	
+	<org.crazyit.event.DrawView
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+	
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/one"
+	    android:duration="80"/>
+
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/two"
+	    android:duration="80"/>
+
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/three"
+	    android:duration="80"/>
+
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/four"
+	    android:duration="80"/>
+
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/five"
+	    android:duration="80"/>
+
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/six"
+	    android:duration="80"/>
+
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/seven"
+	    android:duration="80"/>
+
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/eight"
+	    android:duration="80"/>
+	
+	<item
+	    android:layout_width="wrap_content"
+	    android:drawable="@drawable/nine"
+	    android:duration="80"/>
+	
+	<item
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawable="@drawable/ten"
+	    android:duration="80"/>
+	
+</FrameLayout>
